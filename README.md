@@ -18,3 +18,9 @@ refuse anything not signed by RG Devs or not matching its checksum, and install 
 Pre-releases (release candidates) are not offered to hotels automatically.
 
 Support: RG Devs.
+
+## Website
+
+https://kenrodgersutugi-tech.github.io/rg-hotelos-releases/: about RG HotelOS, setup guide (PDF), download, privacy policy, and terms and conditions. The site is the files in this repository's root (`index.html`, `privacy.html`, `terms.html`, `assets/`, `downloads/`), served by GitHub Pages from `main`.
+
+Each release attaches `RG-HotelOS-Setup.exe` (a fixed-name copy of the installer) so the website's download button always gets the latest version. Update the version and SHA-256 in `index.html` with each release.
