@@ -22,7 +22,7 @@
   <div class="wrap">
     <span class="eyebrow">Legal</span>
     <h1>Privacy policy</h1>
-    <p class="muted">Last updated: 4 November 2026</p>
+    <p class="muted">Last updated: 10 November 2026</p>
     <p>This policy explains what personal data RG Devs ("we", "us") handles in connection with RG HotelOS (the "Software"), the RG Devs licence and M-Pesa services that the Software uses, and this website. We follow the Kenya Data Protection Act, 2019 and its regulations.</p>
 
     <nav class="toc" aria-label="Contents"><ol>
@@ -46,6 +46,7 @@
       <li>The hotel's guest, staff and financial records stay on the hotel's own office PC. RG Devs does not receive them.</li>
       <li>To check a licence, the Software sends us the licence key, a one-way code made from the computer's hardware, the computer's name, the app version and the product name. It never sends guests' details.</li>
       <li>When you buy a licence by M-Pesa, Safaricom handles the payment. We keep only a masked phone number, the amount and the M-Pesa receipt.</li>
+      <li>The optional AI assistant is off unless the hotel turns it on with its own Google Gemini key. It then sends staff questions, and the hotel data needed to answer them, to Google under the hotel's own account, with phone numbers and ID numbers removed first.</li>
       <li>We don't sell personal data, and this website uses no cookies, analytics or advertising trackers.</li>
     </ul>
 
@@ -61,6 +62,7 @@
       <li>After a period the hotel chooses (7 years without a stay by default), guests' ID numbers, phone numbers, email addresses and vehicle details are erased automatically. Names stay on bills and receipts, which are financial records.</li>
       <li>Backups are encrypted with a recovery key that only the hotel holds.</li>
     </ul>
+    <p><strong>The assistant.</strong> The Software's Ask button answers questions from its built-in manual and the hotel's own data, on the PC, without the internet. If the hotel's admin chooses to turn on the <strong>AI assistant</strong>, the hotel enters its own Google Gemini API key. A staff member's question, the recent conversation and the records needed to answer it (for example guest names, room numbers, bookings or totals) are then sent to Google to produce the answer. Before anything is sent, the Software removes phone numbers, ID and passport numbers, email addresses, vehicle details, PINs and keys. The assistant can only look up what that staff member's role may see, and it cannot change anything: it suggests an action, and the staff member confirms it. This happens under the hotel's own agreement with Google, which acts for the hotel; RG Devs receives none of it. The hotel decides whether to use it and should tell staff about it. It can be turned off, and the key removed, at any time in Settings → Assistant.</p>
 
     <h2 id="licence">4. Data our licence service receives</h2>
     <p>When the Software is activated, starts a trial or renews its licence, it contacts the RG Devs licence service and sends:</p>
@@ -96,6 +98,7 @@
       <li><strong>Neon</strong>, which hosts our licence database and services</li>
       <li><strong>GitHub</strong>, which hosts downloads and this website</li>
       <li><strong>Authorities</strong>, where the law requires it</li>
+      <li><strong>Google</strong>, only if a hotel turns on the AI assistant with its own key (section 3). This is the hotel's choice and runs under the hotel's own Google account, not through RG Devs.</li>
     </ul>
     <p>Some of these providers store data outside Kenya, for example in the European Union. Where data leaves Kenya, we rely on safeguards allowed by the Data Protection Act, such as the provider's contractual and security commitments.</p>
 
